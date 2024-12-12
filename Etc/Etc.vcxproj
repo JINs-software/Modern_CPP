@@ -127,11 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="binding_and_casting.h" />
     <ClInclude Include="constexpr.h" />
     <ClInclude Include="functor.h" />
+    <ClInclude Include="HDR.h" />
+    <ClInclude Include="initializer_list.h" />
+    <ClInclude Include="lambda.h" />
     <ClInclude Include="nullptr.h" />
     <ClInclude Include="smart_pointer.h" />
     <ClInclude Include="smart_pointer_practice.h" />
+    <ClInclude Include="uniform_initializer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestMain.cpp" />

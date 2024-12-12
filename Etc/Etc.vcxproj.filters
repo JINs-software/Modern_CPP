@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="nullptr.h" />
+    <ClInclude Include="smart_pointer.h" />
+    <ClInclude Include="constexpr.h" />
+    <ClInclude Include="smart_pointer_practice.h" />
+    <ClInclude Include="functor.h" />
+    <ClInclude Include="initializer_list.h" />
+    <ClInclude Include="HDR.h" />
+    <ClInclude Include="uniform_initializer.h" />
+    <ClInclude Include="binding_and_casting.h" />
+    <ClInclude Include="lambda.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestMain.cpp" />
+  </ItemGroup>
+</Project>

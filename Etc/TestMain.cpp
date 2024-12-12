@@ -1,8 +1,4 @@
-#include "nullptr.h"
-#include "smart_pointer.h"
-#include "constexpr.h"
-#include "smart_pointer_practice.h"
-#include "functor.h"
+#include "HDR.h"
 
 int main() {
 
@@ -67,5 +63,38 @@ int main() {
 		Example_Functor();
 
 		Example_STL_Algorithm_CallBack();
+	}
+
+	/********************************
+	* initialization_list.h
+	********************************/
+	{
+		Example_Initialization_List();
+	}
+
+	/********************************
+	* uniform_initializer.h
+	********************************/
+	{
+		Example_Uniform_Initializer();
+	}
+
+
+	/********************************
+	* binding_and_casting.h
+	********************************/
+	{
+		Example_Binding_Casting();
+	}
+
+	/********************************
+	* lambda.h
+	********************************/
+	{
+		cout << "Example_Labmda_with_Algorithm()" << endl;
+		Example_Labmda_with_Algorithm();
+
+		cout << "Example_Lambda_Capture()" << endl;
+		Example_Lambda_Capture();
 	}
 }
